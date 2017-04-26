@@ -4,8 +4,8 @@ from scrapy.contrib.linkextractors import LinkExtractor
 
 class MySpider(CrawlSpider):
     name = 'thunder'
-    allowed_domains = ['1122et.com']
-    start_urls = ['http://1122et.com/xiazaiqu/xunleichangpian/']
+    allowed_domains = ['xxxxx']
+    start_urls = ['xxxxx']
 
     rules = (
         Rule(LinkExtractor(allow=('index\_\d+\.html')),follow=True),
